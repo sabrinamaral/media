@@ -1,8 +1,16 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Myra"
+      "name": "Jeremy Leannon",
+      "id": 1
+    },
+    {
+      "name": "Gail Zemlak",
+      "id": 2
+    },
+    {
+      "name": "Tom Dooley",
+      "id": 3
     }
   ],
   "albums": [],
