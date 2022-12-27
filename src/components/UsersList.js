@@ -3,7 +3,8 @@ import { useSelector } from "react-redux";
 import { fetchUsers, addUser } from "../store";
 import useThunk from "../hooks/use-thunk";
 import Button from "./Button";
-import Skeleton from "./skeleton";
+import Skeleton from "./Skeleton";
+import UserListItem from "./UserListItem";
 
 const UsersList = () => {
   const [doFetchUsers, isLoadingUsers, loadingUsersError] =
@@ -28,13 +29,7 @@ const UsersList = () => {
     content = <div>There is an error loading data...</div>;
   } else {
     content = data.map((user) => {
-      return (
-        <div key={user.id} className="mb-2 border rounded">
-          <div className="flex p-2 justify-between items-center cursor-pointer">
-            {user.name}
-          </div>
-        </div>
-      );
+      return <UserListItem key={user.id} user={user} />;
     });
   }
   return (
