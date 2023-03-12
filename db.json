@@ -1,18 +1,81 @@
 {
   "users": [
     {
-      "name": "Jeremy Leannon",
+      "name": "Neil Moore",
       "id": 1
     },
     {
-      "name": "Gail Zemlak",
+      "name": "Mr. Roy Heaney",
       "id": 2
-    },
-    {
-      "name": "Tom Dooley",
-      "id": 3
     }
   ],
-  "albums": [],
-  "photos": []
+  "albums": [
+    {
+      "userId": 1,
+      "title": "Elegant Metal Salad",
+      "id": 1
+    },
+    {
+      "userId": 2,
+      "title": "Incredible Cotton Pants",
+      "id": 2
+    }
+  ],
+  "photos": [
+    {
+      "albumId": 1,
+      "url": "https://loremflickr.com/150/150/abstract?lock=89958",
+      "id": 14
+    },
+    {
+      "albumId": 1,
+      "url": "https://loremflickr.com/150/150/abstract?lock=66402",
+      "id": 15
+    },
+    {
+      "albumId": 1,
+      "url": "https://loremflickr.com/150/150/abstract?lock=10298",
+      "id": 16
+    },
+    {
+      "albumId": 1,
+      "url": "https://loremflickr.com/150/150/abstract?lock=5256",
+      "id": 17
+    },
+    {
+      "albumId": 1,
+      "url": "https://loremflickr.com/150/150/abstract?lock=93068",
+      "id": 18
+    },
+    {
+      "albumId": 1,
+      "url": "https://loremflickr.com/150/150/abstract?lock=28824",
+      "id": 19
+    },
+    {
+      "albumId": 2,
+      "url": "https://loremflickr.com/150/150/abstract?lock=86943",
+      "id": 20
+    },
+    {
+      "albumId": 2,
+      "url": "https://loremflickr.com/150/150/abstract?lock=79683",
+      "id": 22
+    },
+    {
+      "albumId": 2,
+      "url": "https://loremflickr.com/150/150/abstract?lock=41144",
+      "id": 23
+    },
+    {
+      "albumId": 2,
+      "url": "https://loremflickr.com/150/150/abstract?lock=83811",
+      "id": 24
+    },
+    {
+      "albumId": 2,
+      "url": "https://loremflickr.com/150/150/abstract?lock=71179",
+      "id": 25
+    }
+  ]
 }
